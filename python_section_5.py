@@ -12,4 +12,5 @@ def find_all_dates(text):
     return valid_dates
 text = "I was born on 23-08-1994, my friend on 08/23/1994, and another one on 1994.08.23."
 output = find_all_dates(text)
-print(output)  # Output: ['23-08-1994', '08/23/1994', '1994.08.23']
+print(output)  
+# Output: ['23-08-1994', '08/23/1994', '1994.08.23']
